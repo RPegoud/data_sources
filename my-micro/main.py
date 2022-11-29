@@ -14,6 +14,9 @@ def hello_world():
 
   gtag('config', 'G-RX6KLE0TXH');
 </script>
+
+🪨 Welcome to the Dwayne Johnson Fan Club (DJFC) 🪨
+<button class="favorite styled"type="button"> Add to favorites </button>
  """
- return prefix_google + "🪨 Welcome to the Dwayne Johnson Fan Club (DJFC) 🪨"
- 
+ return prefix_google
+

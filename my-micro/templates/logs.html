@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <body>
+  <head>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-RX6KLE0TXH"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'G-RX6KLE0TXH')
+    </script>
     <script>
       function print_log() {
         console.log('Navigated to logs!')
       }
       window.onload = print_log
     </script>
+  </head>
+  <body>
     <h1>Logs:</h1>
     <p>The logs shall be printed here:</p>
   </body>

@@ -23,5 +23,5 @@ def cookie():
       # else:
       #     res = make_response(f"Value of cookie: {request.cookies.get('google_analytics')}")
       # return res
-    return requests.get(g_analytics_url).text 
+  return requests.get(g_analytics_url).text 
 
